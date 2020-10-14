@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tutu
+  description: tutu is my new component
+  annotations: 
+    github.com/project-slug: canut/tutu
+spec:
+  type: service
+  lifecycle: experimental
+  owner: canut
